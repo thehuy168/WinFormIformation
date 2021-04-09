@@ -424,7 +424,7 @@ namespace SystemInfo
 				int w = (q / 1000) / 60;
 				label8.Text = w.ToString() + "  Minute(s)";
 				label10.Text ="WINDOWS  " + System.Environment.OSVersion.Version.ToString();
-				label12.Text = System.Environment.Version.ToString();
+				label12.Text = System.Environment.OSVersion.ToString();
 				label14.Text = System.Environment.UserName;
 				label16.Text = System.Environment.UserDomainName;
 				RegistryKey Rkey = Registry.LocalMachine;
